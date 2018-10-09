@@ -1,0 +1,198 @@
+/* ----- Custom Fonts ----- */
+
+@font-face {
+    font-family: 'happy_day';
+    src: url('../../Vendors/fonts/happydayschool-webfont.eot');
+    src: url('../../Vendors/fonts/happydayschool-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../Vendors/fonts/happydayschool-webfont.woff2') format('woff2'),
+         url('../../Vendors/fonts/happydayschool-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lemon_cake';
+    src: url('../../Vendors/fonts/lemoncake-webfont.eot');
+    src: url('../../Vendors/fonts/lemoncake-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../Vendors/fonts/lemoncake-webfont.woff2') format('woff2'),
+         url('../../Vendors/fonts/lemoncake-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'rosetta_black';
+    src: url('../../Vendors/fonts/rosettablack-webfont.eot');
+    src: url('../../Vendors/fonts/rosettablack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../Vendors/fonts/rosettablack-webfont.woff2') format('woff2'),
+         url('../../Vendors/fonts/rosettablack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chocolate';
+    src: url('../../Vendors/fonts/chocolate_covered_raindrops-webfont.eot');
+    src: url('../../Vendors/fonts/chocolate_covered_raindrops-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../Vendors/fonts/chocolate_covered_raindrops-webfont.woff2') format('woff2'),
+         url('../../Vendors/fonts/chocolate_covered_raindrops-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*------ Home Page ------*/
+
+
+#intro {
+  background: linear-gradient(45deg, rgba(255, 209, 220, 0.8), rgba(255, 209, 220, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#intro h2 {
+  font-family: 'happy_day'; 
+  font-size: 100px;
+  margin: 50vh 0 10px 0;
+  color: #8ba8b7;
+}
+#intro p {
+ font-family: 'happy_day';
+    font-size: 72px;
+  color: #8ba8b7;
+}
+
+#header #logo .scrollto { 
+  font-size: 63px;
+  font-family: 'rosetta_black';
+    color: #8ba8b7;
+}
+
+#header.header-fixed {
+  background: #ffd1dc;
+
+}
+
+
+.section-header .section-divider {
+  background: #ffd1dc;
+  background: linear-gradient(0deg, #ffd1dc 0%, #ffd1dc 100%);
+  height: 6px;
+  width: 80px;
+}
+
+.nav-menu a {
+  padding: 0 3px 10px 3px;
+  color: #8ba8b7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+#mobile-nav-toggle i {
+  color: #8ba8b7;
+}
+
+/* Page backgrounds */
+
+
+#about, #skills, #experience, #projects, #contact,#advanced-features, .section-bg {
+  background-color:#e3fcf6;
+}
+
+
+
+/*Pragraph styling */
+
+.section-bg h3, #advanced-features h3 {
+    font-family: 'chocolate';
+    font-size: 30px;
+}
+
+/* ----- Section heading styling -----*/
+
+.section-header .section-title, .section-bg h2, #advanced-features h2 {
+ font-family: 'lemon_cake';
+}
+
+.section-header .section-title{
+    font-size: 54px;
+}
+.section-bg h2, #advanced-features h2{
+    font-weight: 200;
+}
+
+
+/*---- back to top button -----*/
+
+.back-to-top {
+  background: linear-gradient(45deg, #ffd1dc,#ffd1dc);
+  color: #d1fff4;
+}
+
+.back-to-top:hover {
+  background: #d1fff4;
+  color: #ffd1dc;
+}
+/*skills*/
+
+#skills li {
+    list-style: circle;
+
+  }
+
+/*projects*/
+
+#projects .member .pic {
+  height: 360px;
+}
+
+
+/*contact*/
+
+#contact a{
+    color:black;
+}
+
+/*footer*/
+
+#footer {
+  background: #ffd1dc;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+
+/* ------ Media Queries ------*/
+@media (max-width: 768px) {
+  
+    #intro h2 {
+      font-size: 72px;
+    }
+      
+      #intro p {
+    font-size: 50px;
+    padding-top: 5vh;
+}
+
+#header #logo .scrollto { 
+  font-size: 50px;
+}
+    
+}
+@media (max-width: 568px) {
+  #intro h2 {
+    font-size: 45px;
+  }
+    #intro p {
+    font-size: 32px;
+    padding-top: 5vh;
+}
+
+#header #logo .scrollto { 
+  font-size: 32px;
+}
+}
